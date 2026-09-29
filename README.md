@@ -15,3 +15,7 @@ This package includes the concert media, so no separate media download is needed
 ## Local preview
 
 Use a local HTTP server since the music page loads data.json. For example, run `python -m http.server 8000` in this folder and open http://localhost:8000.
+
+Ranking tables show the top 100 artists, top 100 albums, and top 500 songs. Search and sorting operate within each ranking limit. Full catalog and profile data remain available. The listening archive shuffles once per page load and retains that order during searching and pagination unless a column is sorted. Play random song selects from the full catalog and opens a song profile with listening-service links.
+
+Hellfest 2026 venue: Carteret Performing Arts and Events Center. February 4, 2026 headliners: Outta Pocket / Fools Game.

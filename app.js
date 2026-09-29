@@ -2,10 +2,20 @@
 let DATA;
 const $=id=>document.getElementById(id),fmt=n=>new Intl.NumberFormat('en-US').format(n),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>String(s).trim().toLowerCase();
-const states=Object.fromEntries(['artists','albums','songs','catalog'].map(k=>[k,{page:1,sort:k==='catalog'?'artist':'plays',descending:k!=='catalog'}]));
+const states=Object.fromEntries(['artists','albums','songs','catalog'].map(k=>[k,{page:1,sort:k==='catalog'?'random':'plays',descending:k!=='catalog'}]));
 const size=25;
+const rankingLimits={artists:100,albums:100,songs:500};
+let shuffledCatalog=[];
+function shuffle(rows){const result=rows.slice();for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]]}return result}
+function playRandomSong(){if(!DATA?.catalog.length)return;const song=DATA.catalog[Math.floor(Math.random()*DATA.catalog.length)];openProfile('song',song.song,song.artist,song.album)}
 function entity(type,key,artist='',album=''){return `<button class="entity" data-type="${type}" data-key="${esc(key)}" data-artist="${esc(artist)}" data-album="${esc(album)}">${esc(key)}</button>`}
-function getRows(k){const q=norm($(k+'Search').value),s=states[k];return DATA[k].filter(x=>!q||[x.song,x.artist,x.album].filter(Boolean).some(v=>norm(v).includes(q))).slice().sort((a,b)=>{const av=a[s.sort],bv=b[s.sort];const cmp=typeof av==='number'?av-bv:String(av).localeCompare(String(bv));return (s.descending?-cmp:cmp)||String(a.artist).localeCompare(String(b.artist))||String(a.song||a.album||'').localeCompare(String(b.song||b.album||''))})}
+function getRows(k){
+ const q=norm($(k+'Search').value),s=states[k];
+ const source=k==='catalog'?shuffledCatalog:DATA[k].slice(0,rankingLimits[k]);
+ const rows=source.filter(x=>!q||[x.song,x.artist,x.album].filter(Boolean).some(v=>norm(v).includes(q)));
+ if(s.sort==='random')return rows;
+ return rows.sort((a,b)=>{const av=a[s.sort],bv=b[s.sort];const cmp=typeof av==='number'?av-bv:String(av).localeCompare(String(bv));return (s.descending?-cmp:cmp)||String(a.artist).localeCompare(String(b.artist))||String(a.song||a.album||'').localeCompare(String(b.song||b.album||''))});
+}
 function render(k){const rows=getRows(k),s=states[k],pages=Math.max(1,Math.ceil(rows.length/size));s.page=Math.min(s.page,pages);$(k+'Count').textContent=`${fmt(rows.length)} ${k==='catalog'?'unique songs':k}`;
  $(k+'Rows').innerHTML=rows.slice((s.page-1)*size,s.page*size).map(x=>{
  const a=entity('artist',x.artist),al=entity('album',x.album,x.artist),song=entity('song',x.song,x.artist,x.album),rank=`<td class="number">${x.rank}</td>`,plays=`<td class="number">${fmt(x.plays)}</td>`;
@@ -24,4 +34,5 @@ function openProfile(type,key,artist,album){let html='';
 }
 document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.type)openProfile(b.dataset.type,b.dataset.key,b.dataset.artist,b.dataset.album);if(b.dataset.sort){const k=b.dataset.table,s=states[k];s.descending=s.sort===b.dataset.sort?!s.descending:b.dataset.sort==='plays';s.sort=b.dataset.sort;s.page=1;render(k)}if(b.dataset.page){states[b.dataset.page].page+=Number(b.dataset.step);render(b.dataset.page)}});
 $('closeProfile').onclick=()=>$('profile').close();
-fetch('data.json').then(r=>{if(!r.ok)throw new Error('Data request failed');return r.json()}).then(d=>{DATA=d;for(const k of Object.keys(states)){if(k!=='catalog')DATA[k].forEach((x,i)=>x.rank=i+1);$(k+'Search').addEventListener('input',()=>{states[k].page=1;render(k)});render(k)}$('summary').textContent=`${fmt(DATA.artists.length)} artists · ${fmt(DATA.albums.length)} albums · ${fmt(DATA.catalog.length)} unique songs. Rankings count plays of 30 seconds or longer.`}).catch(()=>{$('loadError').hidden=false});
+$('randomSong').onclick=playRandomSong;
+fetch('data.json').then(r=>{if(!r.ok)throw new Error('Data request failed');return r.json()}).then(d=>{DATA=d;shuffledCatalog=shuffle(DATA.catalog);for(const k of Object.keys(states)){if(k!=='catalog')DATA[k].forEach((x,i)=>x.rank=i+1);$(k+'Search').addEventListener('input',()=>{states[k].page=1;render(k)});render(k)}$('summary').textContent=`${fmt(DATA.artists.length)} artists · ${fmt(DATA.albums.length)} albums · ${fmt(DATA.catalog.length)} unique songs. Rankings count plays of 30 seconds or longer.`}).catch(()=>{$('loadError').hidden=false});

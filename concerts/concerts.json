@@ -45,7 +45,7 @@
     "date": "2026-07-04",
     "title": "Hellfest 2026",
     "eventType": "festival",
-    "venue": null,
+    "venue": "Carteret Performing Arts and Events Center",
     "city": "Carteret",
     "region": "NJ",
     "lineup": [],
@@ -240,7 +240,8 @@
         "poster": "media/PXL_20260205_020601133.jpg",
         "durationSeconds": 24.58
       }
-    ]
+    ],
+    "title": "Outta Pocket / Fools Game"
   },
   {
     "id": "2025-11-20-warsaw",
