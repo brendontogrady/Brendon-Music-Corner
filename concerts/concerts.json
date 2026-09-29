@@ -1,0 +1,800 @@
+[
+  {
+    "id": "2026-08-14-the-webster",
+    "date": "2026-08-14",
+    "title": "Boundaries",
+    "eventType": "show",
+    "venue": "The Webster",
+    "city": "Hartford",
+    "region": "CT",
+    "lineup": [
+      "Boundaries",
+      "Orthodox",
+      "Slamwich",
+      "Montclair",
+      "Can't Lose",
+      "Quarantined"
+    ],
+    "metadataSource": "Brendon \u2014 supplied date, venue, and lineup",
+    "note": "Boundaries headlined with Orthodox, Slamwich, Montclair, Can't Lose, and Quarantined supporting. All three clips are grouped with the full show lineup.",
+    "artistPlays": {
+      "Boundaries": 105,
+      "Orthodox": 225,
+      "Slamwich": 1,
+      "Can't Lose": 3
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-551891669",
+        "type": "video",
+        "file": "media/Snapchat-551891669.mp4",
+        "original": "Snapchat-551891669.mp4",
+        "poster": "media/Snapchat-551891669.jpg",
+        "capturedLocal": "2026-08-14T20:33:49-04:00",
+        "durationSeconds": 77.58
+      },
+      {
+        "id": "clip-Snapchat-1401195536",
+        "type": "video",
+        "file": "media/Snapchat-1401195536.mp4",
+        "original": "Snapchat-1401195536.mp4",
+        "poster": "media/Snapchat-1401195536.jpg",
+        "capturedLocal": "2026-08-14T20:41:47-04:00",
+        "durationSeconds": 26.47
+      },
+      {
+        "id": "clip-Snapchat-497828907",
+        "type": "video",
+        "file": "media/Snapchat-497828907.mp4",
+        "original": "Snapchat-497828907.mp4",
+        "poster": "media/Snapchat-497828907.jpg",
+        "capturedLocal": "2026-08-14T22:12:22-04:00",
+        "durationSeconds": 20.06
+      }
+    ]
+  },
+  {
+    "id": "2026-07-04-hellfest",
+    "date": "2026-07-04",
+    "title": "Hellfest 2026",
+    "eventType": "festival",
+    "venue": null,
+    "city": "Carteret",
+    "region": "NJ",
+    "lineup": [],
+    "note": "July 4 at Hellfest 2026 in Carteret, New Jersey. Three clips from the festival.",
+    "artistPlays": {},
+    "media": [
+      {
+        "id": "clip-Snapchat-2130549841",
+        "type": "video",
+        "file": "media/Snapchat-2130549841.mp4",
+        "original": "Snapchat-2130549841.mp4",
+        "poster": "media/Snapchat-2130549841.jpg",
+        "capturedLocal": "2026-07-04T15:23:36-04:00",
+        "durationSeconds": 22.69
+      },
+      {
+        "id": "clip-Snapchat-1879853787",
+        "type": "video",
+        "file": "media/Snapchat-1879853787.mp4",
+        "original": "Snapchat-1879853787.mp4",
+        "poster": "media/Snapchat-1879853787.jpg",
+        "capturedLocal": "2026-07-04T15:56:42-04:00",
+        "durationSeconds": 19.52
+      },
+      {
+        "id": "clip-Snapchat-985783480",
+        "type": "video",
+        "file": "media/Snapchat-985783480.mp4",
+        "original": "Snapchat-985783480.mp4",
+        "poster": "media/Snapchat-985783480.jpg",
+        "capturedLocal": "2026-07-04T16:03:49-04:00",
+        "durationSeconds": 44.98
+      }
+    ],
+    "metadataSource": "Brendon \u2014 supplied date, festival name, and location"
+  },
+  {
+    "id": "2026-05-23-overflow-ottawa",
+    "date": "2026-05-23",
+    "title": "Alpha Wolf \u2014 Let It Rip Tour",
+    "eventType": "show",
+    "venue": "Overflow Brewing Company",
+    "city": "Ottawa",
+    "region": "ON",
+    "country": "Canada",
+    "lineup": [
+      "Alpha Wolf",
+      "Gideon",
+      "Mugshot",
+      "Resolve"
+    ],
+    "lineupSource": "https://www.jambase.com/show/alpha-wolf-overflow-brewing-company-20260523",
+    "note": "Alpha Wolf headlined with Gideon, Mugshot, and Resolve. All four clips are grouped with the full show lineup.",
+    "artistPlays": {
+      "Mugshot": 1101,
+      "Alpha Wolf": 707,
+      "Gideon": 15
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-1278115121",
+        "type": "video",
+        "file": "media/Snapchat-1278115121.mp4",
+        "original": "Snapchat-1278115121.mp4",
+        "poster": "media/Snapchat-1278115121.jpg",
+        "capturedLocal": "2026-05-23T19:59:43-04:00",
+        "durationSeconds": 34.21
+      },
+      {
+        "id": "clip-Snapchat-28642455",
+        "type": "video",
+        "file": "media/Snapchat-28642455.mp4",
+        "original": "Snapchat-28642455.mp4",
+        "poster": "media/Snapchat-28642455.jpg",
+        "capturedLocal": "2026-05-23T20:15:09-04:00",
+        "durationSeconds": 20.07
+      },
+      {
+        "id": "clip-Snapchat-1859574949",
+        "type": "video",
+        "file": "media/Snapchat-1859574949.mp4",
+        "original": "Snapchat-1859574949.mp4",
+        "poster": "media/Snapchat-1859574949.jpg",
+        "capturedLocal": "2026-05-23T20:20:43-04:00",
+        "durationSeconds": 74.3
+      },
+      {
+        "id": "clip-Snapchat-1435218506",
+        "type": "video",
+        "file": "media/Snapchat-1435218506.mp4",
+        "original": "Snapchat-1435218506.mp4",
+        "poster": "media/Snapchat-1435218506.jpg",
+        "capturedLocal": "2026-05-23T20:55:58-04:00",
+        "durationSeconds": 20.73
+      }
+    ]
+  },
+  {
+    "id": "2026-04-11-first-unitarian-church",
+    "date": "2026-04-11",
+    "title": "Varials",
+    "eventType": "show",
+    "venue": "First Unitarian Church",
+    "city": "Philadelphia",
+    "region": "PA",
+    "lineup": [
+      "Varials",
+      "UnityTX",
+      "Boltcutter",
+      "heavy//hitter"
+    ],
+    "metadataSource": "Brendon \u2014 supplied date, venue, and lineup",
+    "note": "Varials headlined with UnityTX, Boltcutter, and heavy//hitter supporting. The clip is grouped with the full show lineup.",
+    "artistPlays": {
+      "Varials": 771,
+      "UnityTX": 17,
+      "Boltcutter": 8,
+      "heavy//hitter": 18
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-73623320",
+        "type": "video",
+        "file": "media/Snapchat-73623320.mp4",
+        "original": "Snapchat-73623320.mp4",
+        "poster": "media/Snapchat-73623320.jpg",
+        "capturedLocal": "2026-04-12T00:46:57-04:00",
+        "durationSeconds": 78.14
+      }
+    ]
+  },
+  {
+    "id": "2026-04-08-the-meadows",
+    "date": "2026-04-08",
+    "title": "Guilt Trip / Malevolence",
+    "eventType": "show",
+    "venue": "The Meadows",
+    "city": "Brooklyn",
+    "region": "NY",
+    "lineup": [
+      "Guilt Trip",
+      "Malevolence",
+      "Chamber",
+      "Shoot Da 5"
+    ],
+    "lineupSource": "https://www.concertarchives.org/bands/shoot-da-5",
+    "dateSource": "https://www.nuclearblast.com/blogs/news/malevolence-announce-co-headline-spring-tour-with-guilt-trip",
+    "note": "Guilt Trip and Malevolence co-headlined with Chamber and Shoot Da 5 supporting. Both clips are grouped with the show lineup. Brendon recalled April 9; the official tour listing and both clips\u2019 local timestamps confirm April 8.",
+    "artistPlays": {
+      "Guilt Trip": 180,
+      "Malevolence": 3,
+      "Chamber": 277
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-1630604663",
+        "type": "video",
+        "file": "media/Snapchat-1630604663.mp4",
+        "original": "Snapchat-1630604663.mp4",
+        "poster": "media/Snapchat-1630604663.jpg",
+        "capturedLocal": "2026-04-08T20:01:29-04:00",
+        "durationSeconds": 16.88
+      },
+      {
+        "id": "clip-Snapchat-423247295",
+        "type": "video",
+        "file": "media/Snapchat-423247295.mp4",
+        "original": "Snapchat-423247295.mp4",
+        "poster": "media/Snapchat-423247295.jpg",
+        "capturedLocal": "2026-04-08T20:38:07-04:00",
+        "durationSeconds": 25.84
+      }
+    ]
+  },
+  {
+    "id": "2026-02-28-lithuanian-music-hall",
+    "date": "2026-02-28",
+    "title": "Angel Du$t \u2014 Cold 2 the Touch",
+    "eventType": "show",
+    "venue": "Lithuanian Music Hall",
+    "city": "Philadelphia",
+    "region": "PA",
+    "lineup": [
+      "Angel Du$t",
+      "Crown of Thornz",
+      "Combust",
+      "Love Sick"
+    ],
+    "lineupSource": "https://philly.askapunk.net/place/35/Lithuanian%20Music%20Hall",
+    "note": "Angel Du$t headlined with Crown of Thornz, Combust, and Love Sick listed as support. This clip is grouped with the show lineup.",
+    "artistPlays": {
+      "Angel Du$t": 373
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-984201564",
+        "type": "video",
+        "file": "media/Snapchat-984201564.mp4",
+        "original": "Snapchat-984201564.mp4",
+        "poster": "media/Snapchat-984201564.jpg",
+        "capturedLocal": "2026-02-28T21:42:31-05:00",
+        "durationSeconds": 4.85
+      }
+    ]
+  },
+  {
+    "id": "2026-02-04-cinco-de-mayo",
+    "date": "2026-02-04",
+    "venue": "Cinco de Mayo",
+    "city": "New Brunswick",
+    "region": "NJ",
+    "lineup": [
+      "Outta Pocket",
+      "Fools Game",
+      "Invoke",
+      "Deprave",
+      "Terminal"
+    ],
+    "lineupSource": "https://www.concertarchives.org/bands/fools-game",
+    "note": "Outta Pocket and Fools Game were remembered as headliners. The clips document this show; their individual performers and songs are intentionally unassigned.",
+    "artistPlays": {
+      "Outta Pocket": 3,
+      "Fools Game": 2,
+      "Invoke": 86,
+      "Deprave": 205,
+      "Terminal": 0
+    },
+    "media": [
+      {
+        "id": "clip-1",
+        "type": "video",
+        "file": "media/PXL_20260205_011247145.mp4",
+        "original": "PXL_20260205_011247145.mp4",
+        "poster": "media/PXL_20260205_011247145.jpg",
+        "capturedLocal": "2026-02-04T20:12:47-05:00",
+        "durationSeconds": 40.17
+      },
+      {
+        "id": "clip-2",
+        "type": "video",
+        "file": "media/PXL_20260205_011740552.mp4",
+        "original": "PXL_20260205_011740552.mp4",
+        "poster": "media/PXL_20260205_011740552.jpg",
+        "capturedLocal": "2026-02-04T20:17:40-05:00",
+        "durationSeconds": 47.46
+      },
+      {
+        "id": "clip-3",
+        "type": "video",
+        "file": "media/PXL_20260205_020601133.mp4",
+        "original": "PXL_20260205_020601133.mp4",
+        "poster": "media/PXL_20260205_020601133.jpg",
+        "capturedLocal": "2026-02-04T21:06:01-05:00",
+        "durationSeconds": 24.58
+      }
+    ]
+  },
+  {
+    "id": "2025-11-20-warsaw",
+    "date": "2025-11-20",
+    "title": "Dying Wish",
+    "eventType": "show",
+    "venue": "WARSAW",
+    "city": "Brooklyn",
+    "region": "NY",
+    "lineup": [
+      "Dying Wish",
+      "Static Dress",
+      "Gouge Away",
+      "Orthodox",
+      "Boltcutter"
+    ],
+    "metadataSource": "Brendon \u2014 date, venue, and lineup supplied",
+    "note": "Dying Wish headlined with Static Dress, Gouge Away, Orthodox, and Boltcutter. This clip is grouped with the full show lineup.",
+    "artistPlays": {
+      "Orthodox": 225,
+      "Static Dress": 2,
+      "Boltcutter": 8,
+      "Dying Wish": 12
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-1591895163",
+        "type": "video",
+        "file": "media/Snapchat-1591895163.mp4",
+        "original": "Snapchat-1591895163.mp4",
+        "poster": "media/Snapchat-1591895163.jpg",
+        "capturedLocal": "2025-11-20T22:11:21-05:00",
+        "durationSeconds": 21.48
+      }
+    ]
+  },
+  {
+    "id": "2025-11-12-mercury-lounge",
+    "date": "2025-11-12",
+    "title": "Greyhaven \u2014 Keep It Quiet Tour",
+    "eventType": "show",
+    "venue": "Mercury Lounge",
+    "city": "New York City",
+    "region": "NY",
+    "lineup": [
+      "Greyhaven",
+      "Fox Lake",
+      "Commoner"
+    ],
+    "lineupSource": "https://discover.events.com/us/new-york/bowery/e/amp/leisure/greyhaven-quiet-tour-mercury-lounge-454652069",
+    "note": "Greyhaven headlined with Fox Lake and Commoner. This clip is grouped with the full show lineup.",
+    "artistPlays": {
+      "Fox Lake": 787,
+      "Greyhaven": 124
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-1795023039",
+        "type": "video",
+        "file": "media/Snapchat-1795023039.mp4",
+        "original": "Snapchat-1795023039.mp4",
+        "poster": "media/Snapchat-1795023039.jpg",
+        "capturedLocal": "2025-11-12T23:23:59-05:00",
+        "durationSeconds": 12.77
+      }
+    ]
+  },
+  {
+    "id": "2025-10-19-starland-ballroom",
+    "date": "2025-10-19",
+    "title": "Counterparts",
+    "eventType": "show",
+    "venue": "Starland Ballroom",
+    "city": "Sayreville",
+    "region": "NJ",
+    "lineup": [
+      "Counterparts",
+      "thrown",
+      "156/Silence",
+      "Split Chain"
+    ],
+    "metadataSource": "Brendon \u2014 date, venue, and lineup supplied",
+    "note": "Counterparts headlined with thrown, 156/Silence, and Split Chain. Both clips are grouped with the full show lineup.",
+    "artistPlays": {
+      "thrown": 655,
+      "Counterparts": 170,
+      "156/Silence": 21
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-1907438733",
+        "type": "video",
+        "file": "media/Snapchat-1907438733.mp4",
+        "original": "Snapchat-1907438733.mp4",
+        "poster": "media/Snapchat-1907438733.jpg",
+        "capturedLocal": "2025-10-19T21:48:32-04:00",
+        "durationSeconds": 6.54
+      },
+      {
+        "id": "clip-Snapchat-795180330",
+        "type": "video",
+        "file": "media/Snapchat-795180330.mp4",
+        "original": "Snapchat-795180330.mp4",
+        "poster": "media/Snapchat-795180330.jpg",
+        "capturedLocal": "2025-10-19T22:04:55-04:00",
+        "durationSeconds": 16.41
+      }
+    ]
+  },
+  {
+    "id": "2025-10-15-the-meadows",
+    "date": "2025-10-15",
+    "title": "200 Stab Wounds",
+    "eventType": "show",
+    "venue": "The Meadows",
+    "city": "Brooklyn",
+    "region": "NY",
+    "lineup": [
+      "200 Stab Wounds",
+      "No Cure",
+      "Gored Embrace",
+      "Bastardane"
+    ],
+    "lineupSource": "https://www.ohmyrockness.com/shows/457229-200-stab-wounds-no-cure-gored-embrace-bastardane-the-meadows",
+    "note": "200 Stab Wounds headlined with No Cure, Gored Embrace, and Bastardane. All three clips are grouped with the full show lineup.",
+    "artistPlays": {
+      "200 Stab Wounds": 368,
+      "No Cure": 638
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-1989670374",
+        "type": "video",
+        "file": "media/Snapchat-1989670374.mp4",
+        "original": "Snapchat-1989670374.mp4",
+        "poster": "media/Snapchat-1989670374.jpg",
+        "capturedLocal": "2025-10-15T20:24:44-04:00",
+        "durationSeconds": 13.29
+      },
+      {
+        "id": "clip-Snapchat-745239812",
+        "type": "video",
+        "file": "media/Snapchat-745239812.mp4",
+        "original": "Snapchat-745239812.mp4",
+        "poster": "media/Snapchat-745239812.jpg",
+        "capturedLocal": "2025-10-15T21:35:55-04:00",
+        "durationSeconds": 11.15
+      },
+      {
+        "id": "clip-Snapchat-1219841262",
+        "type": "video",
+        "file": "media/Snapchat-1219841262.mp4",
+        "original": "Snapchat-1219841262.mp4",
+        "poster": "media/Snapchat-1219841262.jpg",
+        "capturedLocal": "2026-04-07T20:42:46-04:00",
+        "durationSeconds": 16.85
+      }
+    ]
+  },
+  {
+    "id": "2025-09-20-maggies",
+    "date": "2025-09-20",
+    "title": "Angel Du$t",
+    "venue": "Maggie\u2019s Bar & Restaurant",
+    "city": "Lakewood",
+    "region": "NJ",
+    "lineup": [
+      "Angel Du$t",
+      "Division of Mind",
+      "Crush Your Soul",
+      "Buffout",
+      "Bodylock"
+    ],
+    "lineupSource": "https://www.concertarchives.org/concerts/angel-du-t-division-of-mind-crush-your-soul-buffout-bodylock",
+    "note": "Angel Du$t headlined with Division of Mind, Crush Your Soul, Buffout, and Bodylock. This clip is grouped with the full show lineup.",
+    "artistPlays": {
+      "Angel Du$t": 373,
+      "Division of Mind": 121,
+      "Crush Your Soul": 4
+    },
+    "media": [
+      {
+        "id": "clip-2083701399",
+        "type": "video",
+        "file": "media/Snapchat-2083701399.mp4",
+        "original": "Snapchat-2083701399.mp4",
+        "poster": "media/Snapchat-2083701399.jpg",
+        "capturedLocal": "2025-09-20T20:24:00-04:00",
+        "durationSeconds": 8.64
+      }
+    ]
+  },
+  {
+    "id": "2025-08-21-irving-plaza",
+    "date": "2025-08-21",
+    "title": "The Acacia Strain",
+    "venue": "Irving Plaza",
+    "city": "New York City",
+    "region": "NY",
+    "lineup": [
+      "The Acacia Strain",
+      "Bodysnatcher",
+      "Ingrown",
+      "Tribal Gaze",
+      "No Cure"
+    ],
+    "lineupSource": "https://www.pollstar.com/events/the-acacia-strain-at-irving-plaza-8956085",
+    "note": "The Acacia Strain headlined with Bodysnatcher, Ingrown, Tribal Gaze, and No Cure. These five clips are grouped with the full show lineup.",
+    "artistPlays": {
+      "The Acacia Strain": 556,
+      "Bodysnatcher": 383,
+      "Ingrown": 2,
+      "Tribal Gaze": 1,
+      "No Cure": 638
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-1717365173(1)",
+        "type": "video",
+        "file": "media/Snapchat-1717365173(1).mp4",
+        "original": "Snapchat-1717365173(1).mp4",
+        "poster": "media/Snapchat-1717365173(1).jpg",
+        "capturedLocal": "2025-08-21T19:28:07-04:00",
+        "durationSeconds": 15.88
+      },
+      {
+        "id": "clip-Snapchat-812135779(1)",
+        "type": "video",
+        "file": "media/Snapchat-812135779(1).mp4",
+        "original": "Snapchat-812135779(1).mp4",
+        "poster": "media/Snapchat-812135779(1).jpg",
+        "capturedLocal": "2025-08-21T19:39:25-04:00",
+        "durationSeconds": 25.18
+      },
+      {
+        "id": "clip-Snapchat-43350684",
+        "type": "video",
+        "file": "media/Snapchat-43350684.mp4",
+        "original": "Snapchat-43350684.mp4",
+        "poster": "media/Snapchat-43350684.jpg",
+        "capturedLocal": "2025-08-21T20:13:05-04:00",
+        "durationSeconds": 15.78
+      },
+      {
+        "id": "clip-Snapchat-994494933",
+        "type": "video",
+        "file": "media/Snapchat-994494933.mp4",
+        "original": "Snapchat-994494933.mp4",
+        "poster": "media/Snapchat-994494933.jpg",
+        "capturedLocal": "2025-08-21T21:01:14-04:00",
+        "durationSeconds": 13.26
+      },
+      {
+        "id": "clip-Snapchat-94451411",
+        "type": "video",
+        "file": "media/Snapchat-94451411.mp4",
+        "original": "Snapchat-94451411.mp4",
+        "poster": "media/Snapchat-94451411.jpg",
+        "capturedLocal": "2025-08-21T21:03:59-04:00",
+        "durationSeconds": 15.91
+      }
+    ]
+  },
+  {
+    "id": "2025-07-04-red-white-n-bruise",
+    "date": "2025-07-04",
+    "title": "Red White n Bruise: A July 4 Beatdown Extravaganza",
+    "venue": "The Brooklyn Monarch",
+    "city": "Brooklyn",
+    "region": "NY",
+    "lineup": [
+      "Orthodox",
+      "VCTMS",
+      "Crystal Lake",
+      "Not Enough Space",
+      "Mugshot",
+      "Omerta",
+      "Face Yourself",
+      "fromjoy",
+      "Newcomer"
+    ],
+    "lineupSource": "https://www.concertarchives.org/concerts/red-white-n-bruise-a-july-4-beatdown-extravaganza",
+    "note": "Orthodox headlined. All six clips belong to this concert; the bands appearing in individual clips are intentionally unassigned.",
+    "artistPlays": {
+      "Orthodox": 225,
+      "VCTMS": 87,
+      "Crystal Lake": 1,
+      "Not Enough Space": 0,
+      "Mugshot": 1101,
+      "Omerta": 62,
+      "Face Yourself": 3,
+      "fromjoy": 44,
+      "Newcomer": 3
+    },
+    "media": [
+      {
+        "id": "clip-1180802422",
+        "type": "video",
+        "file": "media/Snapchat-1180802422.mp4",
+        "original": "Snapchat-1180802422.mp4",
+        "poster": "media/Snapchat-1180802422.jpg",
+        "capturedLocal": "2025-07-04T17:14:49-04:00",
+        "durationSeconds": 10.12
+      },
+      {
+        "id": "clip-315173812",
+        "type": "video",
+        "file": "media/Snapchat-315173812.mp4",
+        "original": "Snapchat-315173812.mp4",
+        "poster": "media/Snapchat-315173812.jpg",
+        "capturedLocal": "2025-07-04T18:59:31-04:00",
+        "durationSeconds": 19.18
+      },
+      {
+        "id": "clip-978533766",
+        "type": "video",
+        "file": "media/Snapchat-978533766.mp4",
+        "original": "Snapchat-978533766.mp4",
+        "poster": "media/Snapchat-978533766.jpg",
+        "capturedLocal": "2025-07-04T19:54:20-04:00",
+        "durationSeconds": 12.03
+      },
+      {
+        "id": "clip-1215413871",
+        "type": "video",
+        "file": "media/Snapchat-1215413871.mp4",
+        "original": "Snapchat-1215413871.mp4",
+        "poster": "media/Snapchat-1215413871.jpg",
+        "capturedLocal": "2025-07-04T19:54:40-04:00",
+        "durationSeconds": 18.45
+      },
+      {
+        "id": "clip-661707215",
+        "type": "video",
+        "file": "media/Snapchat-661707215.mp4",
+        "original": "Snapchat-661707215.mp4",
+        "poster": "media/Snapchat-661707215.jpg",
+        "capturedLocal": "2025-07-04T20:53:41-04:00",
+        "durationSeconds": 10.93
+      },
+      {
+        "id": "clip-619465806",
+        "type": "video",
+        "file": "media/Snapchat-619465806.mp4",
+        "original": "Snapchat-619465806.mp4",
+        "poster": "media/Snapchat-619465806.jpg",
+        "capturedLocal": "2025-07-04T21:03:55-04:00",
+        "durationSeconds": 8.13
+      }
+    ]
+  },
+  {
+    "id": "2024-06-23-brooklyn-paramount",
+    "date": "2024-06-23",
+    "title": "The Dillinger Escape Plan",
+    "eventType": "show",
+    "venue": "Brooklyn Paramount",
+    "city": "Brooklyn",
+    "region": "NY",
+    "lineup": [
+      "The Dillinger Escape Plan",
+      "Deadguy",
+      "Candy",
+      "Car Bomb",
+      "The Callous Daoboys"
+    ],
+    "metadataSource": "Brendon \u2014 date, venue, and lineup supplied",
+    "note": "The Dillinger Escape Plan headlined with Deadguy, Candy, Car Bomb, and The Callous Daoboys. All three clips are grouped with the show lineup.",
+    "artistPlays": {
+      "Car Bomb": 264,
+      "Candy": 1121,
+      "Deadguy": 108,
+      "The Callous Daoboys": 610,
+      "The Dillinger Escape Plan": 111
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-1928399279(1)",
+        "type": "video",
+        "file": "media/Snapchat-1928399279(1).mp4",
+        "original": "Snapchat-1928399279(1).mp4",
+        "poster": "media/Snapchat-1928399279(1).jpg",
+        "capturedLocal": "2024-06-23T19:05:57-04:00",
+        "durationSeconds": 6.83
+      },
+      {
+        "id": "clip-Snapchat-1632477539(1)",
+        "type": "video",
+        "file": "media/Snapchat-1632477539(1).mp4",
+        "original": "Snapchat-1632477539(1).mp4",
+        "poster": "media/Snapchat-1632477539(1).jpg",
+        "capturedLocal": "2024-06-23T20:43:03-04:00",
+        "durationSeconds": 11.45
+      },
+      {
+        "id": "clip-Snapchat-372621970(1)",
+        "type": "video",
+        "file": "media/Snapchat-372621970(1).mp4",
+        "original": "Snapchat-372621970(1).mp4",
+        "poster": "media/Snapchat-372621970(1).jpg",
+        "capturedLocal": "2024-06-23T22:52:05-04:00",
+        "durationSeconds": 9.73
+      }
+    ]
+  },
+  {
+    "id": "2023-11-11-webster-hall",
+    "date": "2023-11-11",
+    "title": "Botch",
+    "eventType": "show",
+    "venue": "Webster Hall",
+    "city": "Manhattan, New York City",
+    "region": "NY",
+    "lineup": [
+      "Botch",
+      "Uniform"
+    ],
+    "lineupSource": "https://sargenthouse.com/blogs/botch?p=2",
+    "note": "Botch headlined with Uniform supporting. Both clips are grouped with the show lineup.",
+    "artistPlays": {
+      "Botch": 393
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-1685223318",
+        "type": "video",
+        "file": "media/Snapchat-1685223318.mp4",
+        "original": "Snapchat-1685223318.mp4",
+        "poster": "media/Snapchat-1685223318.jpg",
+        "capturedLocal": "2023-11-11T21:25:17-05:00",
+        "durationSeconds": 11.32
+      },
+      {
+        "id": "clip-Snapchat-686120641",
+        "type": "video",
+        "file": "media/Snapchat-686120641.mp4",
+        "original": "Snapchat-686120641.mp4",
+        "poster": "media/Snapchat-686120641.jpg",
+        "capturedLocal": "2023-11-11T21:32:14-05:00",
+        "durationSeconds": 7.67
+      }
+    ]
+  },
+  {
+    "id": "2022-10-23-underground-arts",
+    "date": "2022-10-23",
+    "title": "Chat Pile",
+    "eventType": "show",
+    "venue": "Underground Arts",
+    "city": "Philadelphia",
+    "region": "PA",
+    "lineup": [
+      "Chat Pile",
+      "Planning for Burial",
+      "Orphan Donor"
+    ],
+    "lineupSource": "https://www.brooklynvegan.com/chat-pile-and-no-coast-fest-founder-interview-each-other-about-noise-rocks-current-moment-dream-reunions-more/",
+    "note": "Chat Pile headlined with Planning for Burial and Orphan Donor. The date matches the clip\u2019s embedded timestamp and the contemporary show listing.",
+    "artistPlays": {
+      "Chat Pile": 68
+    },
+    "media": [
+      {
+        "id": "clip-Snapchat-1691608705",
+        "type": "video",
+        "file": "media/Snapchat-1691608705.mp4",
+        "original": "Snapchat-1691608705.mp4",
+        "poster": "media/Snapchat-1691608705.jpg",
+        "capturedLocal": "2022-10-23T22:13:40-04:00",
+        "durationSeconds": 18.88
+      },
+      {
+        "id": "clip-Snapchat-727207933",
+        "type": "video",
+        "file": "media/Snapchat-727207933.mp4",
+        "original": "Snapchat-727207933.mp4",
+        "poster": "media/Snapchat-727207933.jpg",
+        "capturedLocal": "2022-10-23T22:28:42-04:00",
+        "durationSeconds": 14.47
+      }
+    ]
+  }
+]

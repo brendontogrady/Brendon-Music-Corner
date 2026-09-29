@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brendon Music Corner</title>
+<meta name="description" content="An interactive archive of Brendon's Apple Music listening history.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grain"></div>
+<header class="site-header">
+  <div class="brand"><div class="mark">BMC</div><div><div class="eyebrow">THE PERSONAL ARCHIVE OF</div><h1>BRENDON MUSIC CORNER</h1></div></div>
+  <nav><a href="concerts/">Concerts</a><a href="#home">Home</a><a href="#artists">Artists</a><a href="#albums">Albums</a><a href="#songs">Songs</a><a href="#timeline">Timeline</a><a href="#genres">Genres</a><a href="#history">History</a><a href="#weird">Weird Stats</a></nav>
+</header>
+<main>
+<section id="home" class="hero"><div class="hero-copy"><div class="eyebrow">APPLE MUSIC / DEC 2023 — SEP 2026</div><h2>Three years of<br><span>noise, riffs &amp; bad decisions.</span></h2><p>A searchable, slightly obsessive archive of what actually got played — not what I wish I listened to.</p><div class="hero-actions"><a class="btn primary" href="#history">Explore the archive ↓</a><a class="btn" href="#weird">Find the weird stuff</a></div></div><div class="hero-card"><div class="stamp">LISTENING<br>ARCHIVE</div><div class="big-number" id="heroHours">—</div><div class="small-label">HOURS OF MUSIC</div><div class="hero-rule"></div><div class="mini-grid"><div><b id="heroPlays">—</b><span>COUNTED PLAYS</span></div><div><b id="heroDays">—</b><span>DAYS COVERED</span></div></div></div></section>
+<section class="stat-strip"><div><span>NO. 1 ARTIST</span><strong id="statArtist">—</strong><em id="statArtistPlays">—</em></div><div><span>NO. 1 SONG</span><strong id="statSong">—</strong><em id="statSongPlays">—</em></div><div><span>NO. 1 ALBUM</span><strong id="statAlbum">—</strong><em id="statAlbumPlays">—</em></div><div><span>LISTENING / DAY</span><strong id="statDaily">—</strong><em>average minutes</em></div></section>
+
+<section class="section" id="artists"><div class="section-head"><div><div class="eyebrow">THE CANON</div><h3>Artists I kept coming back to.</h3></div><p>Click anything to open the archive behind it.</p></div><div class="grid-two"><div class="panel"><div class="panel-title">TOP ARTISTS</div><div id="artistBars"></div></div><div class="panel dark"><div class="panel-title">ARTIST EXPLORER</div><input id="artistSearch" class="search" placeholder="Search all 1,000+ artists…"><div id="artistList" class="scroll-list"></div></div></div></section>
+
+<section class="section" id="albums"><div class="section-head"><div><div class="eyebrow">THE RECORD COLLECTION</div><h3>Albums that actually got played.</h3></div><p>Artwork is automatically looked up when a record is opened.</p></div><div class="album-grid" id="albumGrid"></div></section>
+
+<section class="section" id="songs"><div class="section-head"><div><div class="eyebrow">THE REPEAT OFFENDERS</div><h3>Tracks that got abused.</h3></div><p>Play counts tell a story. Sometimes an embarrassing one.</p></div><div class="panel"><div class="table-wrap"><table><thead><tr><th>#</th><th>SONG</th><th>ARTIST</th><th>ALBUM</th><th>PLAYS</th><th>HOURS</th></tr></thead><tbody id="songTable"></tbody></table></div></div></section>
+
+<section class="section" id="timeline"><div class="section-head"><div><div class="eyebrow">THE TIMELINE</div><h3>How the obsession changed.</h3></div><p>Zoom from years to months, then open a year for its details.</p></div><div class="panel"><div id="yearCards" class="year-grid"></div></div><div class="panel monthly-panel"><div class="panel-title">MONTHLY LISTENING</div><div id="monthlyChart" class="chart"></div></div></section>
+
+<section class="section" id="genres"><div class="section-head"><div><div class="eyebrow">THE GENRE LENS</div><h3>What kind of noise was winning?</h3></div><p>Genre labels are enriched from Apple’s public catalog lookup and can be imperfect.</p></div><div class="grid-two"><div class="panel"><div class="panel-title">LISTENING BY GENRE</div><div id="genreList"></div></div><div class="panel"><div class="panel-title">THE HEAVY / THE HIP-HOP</div><div id="genreCompare" class="genre-compare"><div class="loading">Looking up genre metadata…</div></div></div></div></section>
+<section class="section" id="weird"><div class="section-head"><div><div class="eyebrow">THE DEEP CUTS</div><h3>The statistics Apple doesn't give you.</h3></div><p>Derived from the individual play records.</p></div><div class="insight-grid" id="insightGrid"></div><div class="grid-two"><div class="panel"><div class="panel-title">ARTISTS I DISCOVERED &amp; IMMEDIATELY ABUSED</div><div id="discoveryList"></div></div><div class="panel"><div class="panel-title">SONGS I APPARENTLY CAN'T STOP SKIPPING</div><div id="skipList"></div></div></div><div class="grid-two"><div class="panel"><div class="panel-title">ONE-SONG ARTISTS</div><div id="oneHitList"></div></div><div class="panel"><div class="panel-title">DEEPEST CATALOG DIVES</div><div id="catalogList"></div></div></div><div class="grid-two"><div class="panel"><div class="panel-title">SONGS I ALMOST ALWAYS FINISH</div><div id="finishList"></div></div><div class="panel"><div class="panel-title">BIGGEST ARTIST COMEBACKS</div><div id="comebackList"></div></div></div><div class="grid-two"><div class="panel"><div class="panel-title">LISTENING ENDINGS</div><div id="endingList"></div></div></div></section>
+
+<section class="section rediscover"><div class="section-head"><div><div class="eyebrow">DIG IN THE CRATES</div><h3>Stuff I apparently forgot about.</h3></div><p>Tracks with 10+ plays that haven't been played in over a year.</p></div><div class="panel"><div class="table-wrap"><table><thead><tr><th>#</th><th>SONG</th><th>ARTIST</th><th>ALBUM</th><th>PLAYS</th><th>LAST PLAYED</th><th>DAYS SINCE</th></tr></thead><tbody id="rediscoverTable"></tbody></table></div></div></section>
+
+<section class="section" id="history"><div class="section-head"><div><div class="eyebrow">THE RECEIPTS</div><h3>Every play.</h3></div><p id="historyCount">—</p></div><div class="filters"><input id="historySearch" class="search" placeholder="Search song, artist, or album…"><select id="yearFilter"><option value="">All years</option></select><select id="endedFilter"><option value="">Any ending</option><option>Reached end</option><option>Paused</option><option>Switched to another song</option><option>Skipped forward</option></select><button id="resetFilters" class="btn">Reset</button></div><div class="panel history-panel"><div class="table-wrap history-scroll"><table><thead><tr><th>DATE</th><th>TIME</th><th>SONG</th><th>ARTIST</th><th>ALBUM</th><th>PLAYED</th><th>END</th></tr></thead><tbody id="historyTable"></tbody></table></div><div class="pager"><button id="prevPage" class="btn">← Previous</button><span id="pageInfo"></span><button id="nextPage" class="btn">Next →</button></div></div></section>
+</main>
+<footer><div><b>BRENDON MUSIC CORNER</b><span>Built from an Apple Music listening-history export.</span></div><span>Public archive • City &amp; device data omitted</span></footer>
+<div id="modal" class="modal" aria-hidden="true"><div class="modal-backdrop"></div><div class="modal-card"><button class="modal-close" id="modalClose">×</button><div id="modalContent"></div></div></div>
+<script src="app.js"></script>
+</body></html>
